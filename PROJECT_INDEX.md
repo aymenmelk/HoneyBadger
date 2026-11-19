@@ -85,6 +85,11 @@ It needs neither Docker nor the honeypot services nor the attack simulator.
 | `Train_data.csv` | Kaggle labeled connections (25,192 rows, `class` = `normal`/`anomaly`) |
 | `Test_data.csv` | Kaggle unlabeled connections (22,544 rows, same 41 features, no `class`) |
 | `intrusion_predictions.csv` | Notebook output: one prediction per `Test_data.csv` row, original order |
+| `pair1_attack_classification.ipynb` | Group objective 1 (supervised attack detection): logistic regression, decision tree and random forest tuned with grouped cross-validation, threshold trade-off, interpretation, feature selection and a HoneyBadger-compatible feature subset |
+| `pair1_predictions.csv` | Output of the Pair 1 notebook: one prediction per `Test_data.csv` row, original order |
+
+The data CSVs and both predictions files are listed in `.gitignore`. The notebooks download or
+regenerate them, and the Kaggle license is listed as "Unknown".
 
 Dataset: <https://www.kaggle.com/datasets/sampadab17/network-intrusion-detection>
 (publisher Sampada Bhosale; Kaggle lists the license as "Unknown").
