@@ -59,3 +59,8 @@ Thumbs.db
 # --- OS ---
 .DS_Store
 Desktop.ini
+
+# --- Offline analysis data (downloaded by intrusion_analysis.ipynb; Kaggle license listed as Unknown) ---
+Train_data.csv
+Test_data.csv
+intrusion_predictions.csv
