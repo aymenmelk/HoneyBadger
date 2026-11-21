@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased (local changes on branch `presentation-prep`, not committed)
+## Unreleased (branch `presentation-prep`)
 
 Base: `93a9d69` (`main` after PR #2). Every bug fix comes with a test; see `docs/TEST_REPORT.md` for before/after results.
 

@@ -1,6 +1,6 @@
 # HoneyBadger project index
 
-Reviewed commit: `93a9d69` (`main` after PR #2) plus the local changes listed in `CHANGELOG.md`.
+Reviewed commit: `93a9d69` (`main` after PR #2) plus the `presentation-prep` changes listed in `CHANGELOG.md`.
 Index updated 2026-11-21. Every path below exists in that working tree.
 
 ## What the project is
@@ -128,7 +128,7 @@ the fields and lists the evidence needed for a real evaluation.
 
 ## Gaps noticed while indexing
 
-Fixed in the local changes (see `CHANGELOG.md`): the pipeline import error, the simulator stub, the README's port and missing-doc links, and the empty `docs/ANALYSIS.md` and `docs/RESPONSIBLE_DISCLOSURE.md`.
+Fixed on `presentation-prep` (see `CHANGELOG.md`): the pipeline import error, the simulator stub, the README's port and missing-doc links, and the empty `docs/ANALYSIS.md` and `docs/RESPONSIBLE_DISCLOSURE.md`.
 
 Still open:
 

@@ -1,6 +1,6 @@
 # Test report
 
-Date: 2026-11-21. Base commit: `93a9d69` (`main` after PR #2). All changes described here are local and uncommitted.
+Date: 2026-11-21. Base commit: `93a9d69` (`main` after PR #2). All changes described here are on branch `presentation-prep`.
 
 Every result below was produced by a command that was actually run. Where something could not be run, this report says so.
 
