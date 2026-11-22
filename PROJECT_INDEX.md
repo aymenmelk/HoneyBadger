@@ -88,7 +88,7 @@ It needs neither Docker nor the honeypot services nor the attack simulator.
 | `pair1_attack_classification.ipynb` | Group objective 1 (supervised attack detection): logistic regression, decision tree and random forest tuned with grouped cross-validation, threshold trade-off, interpretation, feature selection and a HoneyBadger-compatible feature subset |
 | `pair1_predictions.csv` | Output of the Pair 1 notebook: one prediction per `Test_data.csv` row, original order |
 | `train_prepared.csv`, `validation_prepared.csv`, `test_prepared.csv` | Pair 1 notebook output: the prepared data (constant columns dropped, one-hot encoding fitted on the training partition), with `source_row` back to the original CSV |
-| `pair2_anomaly_detection.ipynb` | Group objective 2 (detection without labels): Isolation Forest, One-Class SVM and Local Outlier Factor trained on normal traffic only, 1% false-alarm threshold. Pending confirmation by Siwar and Shayma: not committed yet |
+| `pair2_anomaly_detection.ipynb` | Group objective 2 (detection without labels): Isolation Forest, One-Class SVM and Local Outlier Factor trained on normal traffic only, 1% false-alarm threshold. Siwar and Shayma |
 | `pair2_predictions.csv` | Output of the Pair 2 notebook: one anomaly score per `Test_data.csv` row, original order |
 | `results/pair1_results.json`, `results/pair2_results.json` | Settings and measured results saved by the notebooks |
 | `scripts/run_analysis.py`, `scripts/expected_results.json` | Re-runs both notebooks and checks 50 values against the reference |

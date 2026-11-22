@@ -486,7 +486,7 @@ Three notebooks at the repository root analyse a public intrusion-detection data
 |---|---|
 | `intrusion_analysis.ipynb` | Dataset audit and a first baseline |
 | `pair1_attack_classification.ipynb` | Detect attacks with labels (supervised classification) |
-| `pair2_anomaly_detection.ipynb` | Detect attacks without labels (anomaly detection). Added once Siwar and Shayma confirm it; `run_analysis.py` skips it until then |
+| `pair2_anomaly_detection.ipynb` | Detect attacks without labels (anomaly detection) |
 
 `python scripts/run_analysis.py` re-runs the Pair 1 and Pair 2 notebooks and checks their results against the reference values. Results: [docs/RESULTS_AND_ANALYSIS.md](docs/RESULTS_AND_ANALYSIS.md). Live demo: [docs/DEMO_GUIDE.md](docs/DEMO_GUIDE.md).
 

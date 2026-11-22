@@ -19,7 +19,7 @@ Base: `93a9d69` (`main` after PR #2). Every bug fix comes with a test; see `docs
 
 - **Attack simulator** (`backend/sim/simulate.py`): `python -m sim.simulate --count N --delay S` sends harmless SSH and HTTP attacks and prints the recorded techniques. Previously a stub.
 - **Tests:** `backend/tests/test_mitre.py` and `test_pipeline.py` (previously empty files), `test_httpd.py` (new), `test_api.py` (rewritten; runs against a real PostgreSQL when `HB_TEST_DATABASE_URL` is set).
-- **Pair 2 notebook** `pair2_anomaly_detection.ipynb` (objective 2, Siwar and Shayma). **Pending their confirmation: not part of this change set yet.**
+- **Pair 2 notebook** `pair2_anomaly_detection.ipynb` (objective 2, Siwar and Shayma). Confirmed by Shayma on 2026-11-22.
 - **Reproducibility:** both notebooks save their settings and results to `results/pair1_results.json` and `results/pair2_results.json`; `scripts/run_analysis.py` re-runs them and checks 50 values against `scripts/expected_results.json`; `requirements-analysis.txt`.
 - **Documentation:** `docs/TEST_REPORT.md`, `docs/RESULTS_AND_ANALYSIS.md`, `docs/DEMO_GUIDE.md`, `docs/PROJECT_EXPLAINED_FROM_ZERO.md`, `docs/PROFESSOR_QA.md` (French), `docs/PRESENTATION_SCRIPT.md` (French), `docs/FINAL_PROJECT_REPORT.md` (French), `docs/RESPONSIBLE_DISCLOSURE.md` and `docs/ANALYSIS.md` (previously empty), `docs/img/dashboard_live.png`.
 - French presentation deck (15 slides with speaker notes), hosted outside the repository; linked from `docs/PRESENTATION_SCRIPT.md`.
